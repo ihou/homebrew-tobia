@@ -1,21 +1,21 @@
 class TobiaLink < Formula
   desc "Tobia local bridge for Codex session relay"
   homepage "https://github.com/ihou/tobia-link-releases"
-  version "0.1.12"
+  version "0.1.13"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ihou/tobia-link-releases/releases/download/v0.1.12/tobia-link_0.1.12_darwin_arm64.tar.gz"
-      sha256 "2fdd97fc8ab586edd34b1a69de30231c01f96217add574a1e2c1cd19533285d8"
+      url "https://github.com/ihou/tobia-link-releases/releases/download/v0.1.13/tobia-link_0.1.13_darwin_arm64.tar.gz"
+      sha256 "00e23f96c4f5e94faf59034c13c4bb6f5198327834d4ede8a761f873e3165259"
     else
-      url "https://github.com/ihou/tobia-link-releases/releases/download/v0.1.12/tobia-link_0.1.12_darwin_amd64.tar.gz"
-      sha256 "c321259980d1798ab7cf1a8537cf87bfaa785ef26b5df0c3d24aed636d151fac"
+      url "https://github.com/ihou/tobia-link-releases/releases/download/v0.1.13/tobia-link_0.1.13_darwin_amd64.tar.gz"
+      sha256 "e5cb62cf1353b601ccd88345dbdf9ac4bab98053bdea411557155a90fa34d545"
     end
   end
 
   on_linux do
-    url "https://github.com/ihou/tobia-link-releases/releases/download/v0.1.12/tobia-link_0.1.12_linux_amd64.tar.gz"
-    sha256 "18879d3301fa6b99e7d0b0fd2a8cd85555f73517c5e7205c8b622a2e27133a4d"
+    url "https://github.com/ihou/tobia-link-releases/releases/download/v0.1.13/tobia-link_0.1.13_linux_amd64.tar.gz"
+    sha256 "ddf07d8cf5f73ca6aacca3eae5a0f062e7c33ca787a594b3394bad9dca8b9280"
   end
 
   def install
